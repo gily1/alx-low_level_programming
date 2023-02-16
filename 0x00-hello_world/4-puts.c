@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -printf "programming is like building a multilingual 
+ * main - prints "programming is like building a multilingual 
  * puzzel, followed by a new line."
  * Return: Always 0.
  */
