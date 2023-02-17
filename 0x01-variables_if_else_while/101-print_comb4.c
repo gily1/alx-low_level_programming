@@ -10,6 +10,7 @@ int c;
 int d;
 int e = 0;
 while (e < 10)
+{
 d = 0;
 while (d < 10)
 {
@@ -33,6 +34,6 @@ d++;
 }
 e++;
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
