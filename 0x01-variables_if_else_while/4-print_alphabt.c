@@ -1,24 +1,17 @@
 #include<stdlib.h>
 #include<stdio.h>
 /**
- * main - program for numbers
- * Return: 0
+ * main - printing alphabets except q and e
+ * Return: 0 always
  */
 int main(void)
 {
-char c;
-char d;
-c = 'a';
-d = 'A';
+char c = 'a';
 while (c <= 'z')
 {
+if ((c != 'q' && c != 'e') && c <= 'z')
 putchar(c);
 c++;
-}
-while (d <= 'z')
-{
-putchar(c);
-d++;
 }
 putchar('\n');
 return (0);
