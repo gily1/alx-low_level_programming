@@ -7,16 +7,16 @@
 int main(void)
 {
 int a;
-char b;
+char c;
 while (a < 10)
 {
 putchar(a + '0');
 a++;
 }
-while (b <= 'f')
+while (c <= 'f')
 {
-putchar(b);
-b++;
+putchar(c);
+c++;
 }
 putchar('\n');
 return (0);
