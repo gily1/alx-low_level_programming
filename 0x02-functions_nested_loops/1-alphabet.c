@@ -3,15 +3,13 @@
  * main - program for alpabtes in a function
  * Return: 0 always
  */
-void print_alphabet(void);
-int main(void);
+void print_alphabet(void)
 {
 char c = 'z';
 while (c <= 'z')
 {
-putchar(c);
+_putchar(c);
 c++;
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
