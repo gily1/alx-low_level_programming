@@ -11,7 +11,7 @@ while (i < 50)
 {
 if (i == 0)
 {
-printf(", %ld", j);
+printf("%ld", j);
 }
 else if (i == 1)
 {
