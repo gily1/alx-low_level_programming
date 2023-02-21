@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /**
  * print_sign - printing the sign of
  * a number entred
@@ -21,4 +21,5 @@ else
 {
 _putchar(48);
 return (0);
+}
 }
