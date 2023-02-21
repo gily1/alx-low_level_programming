@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 /**
  * _islower - printing lower case lettrs
  * @c: the check tobe checked
