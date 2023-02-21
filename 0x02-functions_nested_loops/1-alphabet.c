@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * main - program for alpabtes in a function
  * print_alphabet - make alphabets
  * Return: 0 always
  */
