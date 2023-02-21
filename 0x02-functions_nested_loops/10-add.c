@@ -3,14 +3,8 @@
  * add - adding two numbers
  * @a: frst number
  * @b:secnd nbr
- * Return: 0 alwys
+ * Return: summation
  */
-int add(int, int)
-{
-int a;
-int b;
-int sum;
-sum = a+ b;
-putchar('the sum is :'" %d",sum)
-return (0);
+int add(int c, int d);
+return (c + d);
 }
