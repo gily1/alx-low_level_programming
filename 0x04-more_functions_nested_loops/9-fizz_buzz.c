@@ -15,7 +15,7 @@ printf("fizzBuzz");
 }
 else if (x % 3 == 0)
 {
-pintf("fizz");
+printf("fizz");
 }
 else if (x % 5 == 0)
 {
@@ -30,6 +30,6 @@ if (x != 100)
 printf(" ");
 }
 }
-printf('\n');
+printf("\n");
 return (0);
 }
