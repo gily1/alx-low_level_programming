@@ -1,5 +1,5 @@
 #include "main.h"
-#include<unstd.h>
+#include<unistd.h>
 /**
  * _putchar - writes charchter on screen
  * @c: the charcter to print
