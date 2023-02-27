@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _strcpy - copy a string
+ * @src: holding i
  * @dest:destination value
  *Return: something
  */
