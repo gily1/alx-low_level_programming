@@ -5,7 +5,6 @@
 * main - generate codes
 * Return: 0 alwys.
 */
-
 int main(void)
 {
 char password[84];
@@ -39,7 +38,6 @@ for (index = 0; password[index]; index++)
 if (password[index] >= (33 + diff_half1))
 password[index] -= diff_half2;
 break;
-}
 }
 }
 printf("%s", password);
