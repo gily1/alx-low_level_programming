@@ -4,9 +4,9 @@
  *  @s:  storing vallue
  *  Return:something
  */
-int _strlen(char *s)
+size_t _strlen(const char *s)
 {
-char length = 0;
+size_t  length = 0;
 while (*s++)
 length++;
 return (length);
