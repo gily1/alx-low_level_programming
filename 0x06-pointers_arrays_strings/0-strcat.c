@@ -24,5 +24,5 @@ i++;
 j++;
 }
 s1[j] = '\0';
-printf("concatenation is :%s", s1);
+return (dest);
 }
