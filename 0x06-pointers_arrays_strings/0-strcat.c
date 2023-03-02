@@ -1,3 +1,4 @@
+#include"main.h"
 #include<stdio.h>
 /**
  * _strcat - function to hold strings to be conancatenated
