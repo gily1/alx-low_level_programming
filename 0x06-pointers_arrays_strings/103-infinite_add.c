@@ -51,7 +51,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int i, n = 0, l = 0;
 for  (i = 0; *(n1 + i); i++)
-l++;
+n++;
 for (i = 0; *(n2 + i); i++)
 l++;
 if (size_r <= n + 1 || size_r <= l + 1)
