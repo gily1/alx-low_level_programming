@@ -1,5 +1,4 @@
-#include<stdio.h>
-#inlcude "main.h"
+#include "main.h"
 /**
  * set_string - function to hold poinetrs
  * @s: frst string
