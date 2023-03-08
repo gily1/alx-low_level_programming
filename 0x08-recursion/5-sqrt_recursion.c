@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-return (_sqrt_recursion(n, 1));
+return (_sqrt(n, 1));
 }
 /**
  * _sqrt -calculate natural square root
