@@ -1,4 +1,4 @@
-#include "'main.h"
+#include "main.h"
 /**
  * factorial - fucntion for factorial computing
  * @n: number to be factorialized
