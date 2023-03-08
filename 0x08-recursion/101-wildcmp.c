@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * wildcmp - function for comparing strings
  * @s1: first string
