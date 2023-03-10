@@ -3,7 +3,7 @@
 /**
  * main - function for counting nbr of arguments
  *@argc: argument counter
- @argv: argument vector
+*@argv: argument vector
  *Return: o broh
  */
 int main(int argc, char *argv[])
