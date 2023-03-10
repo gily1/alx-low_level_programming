@@ -4,7 +4,7 @@
  * main - argumental fucntion
  *@argc :argument counter
  *@argv:argument vectore
- *Return : 0 succes
+ *Return:0 succes
  */
 int main(int argc, char *argv[])
 {
