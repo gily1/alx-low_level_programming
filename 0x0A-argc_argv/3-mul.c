@@ -6,7 +6,7 @@
  * main- adding numbers
  * @argv:vector
  * @argc:arguments conter
- * Return: product.
+ * Return: sum
  */
 int main(int argc, char *argv[])
 {
@@ -15,7 +15,7 @@ int j;
 int mult = 1;
 if (argc == 1)
 {
-printf("0\n");
+printf("Error\n");
 return (0);
 }
 for (i = 1; i < argc; i++)
