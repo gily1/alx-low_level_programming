@@ -17,7 +17,7 @@ return (NULL);
 total_len = 0;
 for (i = 0; i < ac; i++)
 {
-total_len += strlen(av[i]);
+total_len += strlen(av[i]) + 1;
 }
 str = (char *) malloc(sizeof(char) * total_len);
 if (str == NULL)
