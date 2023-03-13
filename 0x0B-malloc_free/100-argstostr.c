@@ -4,6 +4,7 @@
  * argstostr - function for concatanating strings
  *@ac: string
  *@av: pointer
+ *Return : something
  */
 char *argstostr(int ac, char **av)
 {
