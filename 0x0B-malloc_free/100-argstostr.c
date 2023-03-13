@@ -3,7 +3,7 @@
 /**
  * argstostr - function for concatanating strings
  *@ac: string
- @av: pointer
+ *@av: pointer
  */
 char *argstostr(int ac, char **av)
 {
@@ -17,7 +17,7 @@ return (NULL);
 total_len = 0;
 for (i = 0; i < ac; i++)
 {
-total_len += strlen(av[i]) + 1;
+total_len += strlen(av[i]) + 2;
 }
 str = (char *) malloc(sizeof(char) * total_len);
 if (str == NULL)
