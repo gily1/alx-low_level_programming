@@ -1,16 +1,20 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * malloc_checked - fucntion for returning reallocated memory
+ * malloc_checked - function
  * @b: integer
- * Return: pointer
+ * Return: results
  */
 void *malloc_checked(unsigned int b)
 {
-void *p;
-p = malloc(b);
-if (p == NULL)
-	exit(98);
-return (p);
+  void *ptr = malloc(b);
+  
+  if (ptr == NULL)
+  {
+    printf("Error: malloc failed to allocate memory.\n");
+    exit(98);
+  }
+
+  return(ptr);
 }
+
