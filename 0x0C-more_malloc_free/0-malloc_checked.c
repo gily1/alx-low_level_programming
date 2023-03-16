@@ -11,7 +11,6 @@ void *malloc_checked(unsigned int b)
   
   if (ptr == NULL)
   {
-    printf("Error: malloc failed to allocate memory.\n");
     exit(98);
   }
 
