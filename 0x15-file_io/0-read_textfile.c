@@ -17,7 +17,7 @@ d = open(filename, O_RDONLY);
 if (d == -1)
 return (0);
 buf = malloc(sizeof(char) * letters);
-t = read(fd, buf, letters);
+t = read(d, buf, letters);
 x = write(STDOUT_FILENO, buf, t);
 free(buf);
 close(d);
